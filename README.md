@@ -19,7 +19,7 @@ our model in different frameworks (TensorFlow, PyTorch) as well.
 [NLTK](http://www.nltk.org/)
 
 
-## Datasets, Preprocessing, and Word Embedding
+## Datasets and Preprocessing
 The SNLI dataset can be downloaded from https://nlp.stanford.edu/projects/snli/ .
 The file ``oov_vec.py`` is for preprocessing this dataset, no additional command line arguments needed.
 
