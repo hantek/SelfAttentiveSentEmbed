@@ -10,9 +10,9 @@ our model in different frameworks (TensorFlow, PyTorch) as well.
 
 
 ## Requirements:
-[Theano](http://deeplearning.net/software/theano/)
-[Lasagne](http://lasagne.readthedocs.io/en/latest/)
-[scikit-learn](http://scikit-learn.org/stable/)
+[Theano](http://deeplearning.net/software/theano/)  
+[Lasagne](http://lasagne.readthedocs.io/en/latest/)  
+[scikit-learn](http://scikit-learn.org/stable/)  
 [NLTK](http://www.nltk.org/)
 
 
