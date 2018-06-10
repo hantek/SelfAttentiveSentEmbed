@@ -182,8 +182,6 @@ def main(num_epochs=NUM_EPOCHS):
         l_outhid_noise, num_units=3, nonlinearity=lasagne.nonlinearities.softmax)
 
 
-    pdb.set_trace()
-
     ########### target, cost, validation, etc. ##########
     target_values = T.ivector('target_output')
     target_values.tag.test_value = numpy.asarray([1,] * 50, dtype='int32')
@@ -290,7 +288,9 @@ def main(num_epochs=NUM_EPOCHS):
 
                 if batches_seen % 2000 == 0:
                     dev_set_cost,  dev_set_error  = evaluate('dev')
-                    print("***dev cost %f, error %f" % (dev_set_cost,  dev_set_error))
+                    test_set_cost, test_set_error = evaluate('test')
+                    print("***dev  cost %f, error %f" % (dev_set_cost,  dev_set_error))
+                    print("***test cost %f, error %f" % (test_set_cost,  test_set_error))
 
             # save parameters
             all_param_values = [p.get_value() for p in all_params]
