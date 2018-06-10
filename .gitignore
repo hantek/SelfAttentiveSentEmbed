@@ -1,0 +1,16 @@
+*~
+*.swo
+*.swp
+
+*.pyc
+*.ipynb
+
+*.npy
+*.pkl
+*.html
+*.log
+
+SMART_DISPATCH_LOGS/*
+html/*
+params/*
+screenlog.0
