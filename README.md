@@ -50,7 +50,7 @@ python semlp_rate_l2_dpout.py 300 350 3000 30 0.001 0.3 0.0001 1. glove 300 50 0
 
 And on SNLI dataset:
 ```
-python segae_l2_dpout.py 300 150 3000 30 0.01 0.0001 0.3 1. 300 50 0.5 5 0.1 1
+python segae_gaereg.py 300 150 4000 30 0.01 0.1 0.5 300 50 100 12 0.1
 ```
 
 ## Third Party Implementations
